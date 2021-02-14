@@ -1,0 +1,7 @@
+  timescale:
+    image: timescale/timescaledb:2.0.0-pg11
+    ports:
+      - "5432:5432"
+    environment:
+        - POSTGRES_PASSWORD=password
+    command: postgres -c max_prepared_transactions=10

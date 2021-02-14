@@ -1,0 +1,3 @@
+flight_db_connection: postgres://postgres:password@localhost:5432/flight
+account_db_connection: postgres://postgres:password@localhost:5432/account
+hotel_db_connection: postgres://postgres:password@localhost:5432/hotel
